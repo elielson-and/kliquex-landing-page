@@ -1,10 +1,10 @@
 <script setup>
+import HomeView from '@/views/HomeView.vue'
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline text-red-500">
-    Hello world!
-  </h1>
+  <HomeView />
 </template>
 
-<style scoped></style>
+
+<style scoped lang="scss"></style>
