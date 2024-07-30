@@ -1,9 +1,12 @@
-<script setup></script>
+<script setup>
+</script>
 <template>
     <section class="w-full  -red-400 p-0 relative">
 
         <img src="@/assets/images/light-tl.png" class="absolute -top-8 left-0 w-[35rem]" alt="kliquex">
-        <img src="@/assets/images/light-tr.png" class="absolute -top-8 right-0 w-[45rem]" alt="kliquex">
+        <img src="@/assets/images/light-tr.png" class="absolute -top-8 right-0 w-[35rem]" alt="kliquex">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-52 left-0 w-[22rem]" alt="kliquex">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-52 right-0 w-[22rem] rotate-180" alt="kliquex">
 
         <main class="w-full max-w-7xl mx-auto p-4  relative">
             <!-- nav     -->
@@ -12,8 +15,8 @@
             </nav>
 
             <!-- hero divider -->
-            <div class="w-full  p-4 mt-4 flex flex-row justify-between">
-                <div class="w-4/6 ">
+            <div class="w-full  p-4 mt-4 flex flex-row justify-between border">
+                <div class="w-4/6 border ">
                     <h1 class="text-red-600 font-bold text-4xl mb-4">Mais que uma agência.</h1>
                     <p class="text-white text-4xl  font-sans ">Somos uma empresa de marketing digital
                         dedicada a
@@ -34,8 +37,9 @@
                         FAZER UMA
                         CONSULTA</button>
                 </div>
-                <div class="w-5/6  relative ">
-                    <img src="@/assets/images/hero_img.png" class="absolute -top-14 w-full  " alt="kliquex">
+                <div class="w-5/6  relative border ">
+                    <img src="@/assets/images/hero_img.png" class="absolute -top-14 w-full  " alt="kliquex"
+                        data-aos="fade-up-left">
                 </div>
             </div>
 
@@ -47,11 +51,17 @@
                         atuação</p>
                 </div>
 
-                <div class="w-full flex justify-center mt-20">
+                <div class="w-full flex justify-center mt-20" data-aos="fade-up-left">
                     <img src="@/assets/images/pilares.png" class="w-[60rem]" alt="kliquex">
 
                 </div>
             </div>
+
+
+            <!-- services -->
+            <section>
+
+            </section>
 
 
 
