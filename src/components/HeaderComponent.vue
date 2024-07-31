@@ -17,7 +17,7 @@
             </nav>
 
             <!-- hero divider -->
-            <div class="flex flex-col md:flex-row  justify-center ">
+            <div class="flex flex-col md:flex-row  justify-center " data-aos="fade-up">
                 <div class="w-full md:w-1/2   ">
                     <h1 class="text-red-600 font-bold text-3xl md:text-5xl mb-10 text-center md:text-left">Mais que uma
                         agência.
@@ -82,9 +82,10 @@
             <div
                 class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10 rounded-t-xl md:rounded-none">
                 <h1 class="text-white text-center font-bold text-3xl ">NOSSOS PRINCIPAIS SERVIÇOS</h1>
-                <img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
+                <img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex"
+                    data-aos="fade-up">
 
-                <a href="https://wa.me/5598984512238">
+                <a href="https://wa.me/5598984512238" data-aos="fade-up">
                     <button
                         class="px-24 py-5 mt-20 bg-red-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-800  transition-all relative z-10">
                         SOLICITAR CONSULTA
@@ -98,7 +99,8 @@
         <main class="w-full max-w-7xl mx-auto p-4  relative text-white flex flex-col justify-center items-center">
             <h1 class="text-3xl font-bold"><span class="text-red-600">PROJETOS</span> RECENTES</h1>
             <p class="text-xl">Criativos de alta <span class="text-red-500">conversão</span></p>
-            <img src="@/assets/images/projects.png" class="w-[80rem] mt-5 relative z-10" alt="kliquex">
+            <img src="@/assets/images/projects.png" class="w-[80rem] mt-5 relative z-10" alt="kliquex"
+                data-aos="fade-up">
         </main>
     </section>
 
@@ -109,7 +111,7 @@
             alt="kliquex">
 
         <main class="w-full max-w-7xl mx-auto  relative text-white flex flex-col md:flex-row ">
-            <div class="w-full md:w-2/4 p-2">
+            <div class="w-full md:w-2/4 p-2" data-aos="fade-right">
                 <h1 class="text-3xl font-bold text-red-600 mb-5">QUEM SOMOS?</h1>
                 <p class="mb-5 text-xl md:text-2xl leading-8">Somos uma equipe de especialistas em marketing digital
                     comprometidos
@@ -142,7 +144,7 @@
                     class="w-[40rem] relative md:absolute  top-5 left-[50%] translate-x-[-50%] md:translate-x-[-60%] z-10"
                     alt="kliquex">
 
-                <div class="mt-5 ml-0 md:ml-5 absolute md:relative top-2">
+                <div class="mt-5 ml-0 md:ml-5 absolute md:relative top-2" data-aos="fade-up">
                     <h1 class="font-extrabold mb-1">Bryan Esteves</h1>
                     <p class="text-gray-300">Estrategista, <br> CEO e Founder</p>
                 </div>
@@ -157,42 +159,42 @@
 
 
             <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Pequenas empresas em fase de crescimento;
                     </div>
                 </div>
 
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Empreendedores individuais;
                     </div>
                 </div>
 
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Startups buscando visibilidade online;
                     </div>
                 </div>
 
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Empresas estabelecidas procurando otimizar sua presença digital;
                     </div>
                 </div>
 
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Profissionais liberais em busca de destaque na internet;
                     </div>
                 </div>
 
-                <div class="w-full flex gap-4 justify-center items-center">
+                <div class="w-full flex gap-4 justify-center items-center" data-aos="fade-up">
                     <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
                     <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
                         Marcas que desejam alcançar um público específico;
