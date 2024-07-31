@@ -201,5 +201,42 @@
         </main>
     </section>
 
+    <section class="w-full p-4 relative mt-10 md:mt-28 mb-36 ">
+        <img src="@/assets/images/light_fill.png"
+            class="absolute w-[80rem] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
+        <img src="@/assets/images/white_light.png"
+            class="absolute w-[80rem] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
+            alt="kliquex">
+        <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center items-center flex-col ">
+            <h1 class="text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!</h1>
+            <p class="text-4xl text-center mt-10 max-w-[80%]">Potencialize sua marca com nossa expertise em marketing
+                digital. Marque
+                sua
+                consulta
+                gratuita e comece
+                sua jornada para o sucesso agora mesmo!</p>
+            <button
+                class="px-16 py-5 mt-16 text-3xl bg-gray-950 shadow-md shadow-red-950 text-white font-bold rounded-lg hover:shadow-lg   transition-all relative z-10">
+                REALIZAR CONSULTA GRÁTIS
+            </button>
+        </main>
+    </section>
+
+    <div class="border w-full max-w-7xl mx-auto border-red-600 my-20"></div>
+
+    <section class="w-full p-4 relative mt-10 md:mt-28  ">
+        <!-- <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
+            alt="kliquex"> -->
+        <main class="w-full max-w-7xl mx-auto grid grid-cols-3 gap-4 justify-items-center">
+
+            <img src="@/assets/images/logo.png" class="w-64" alt="kliquex">
+            <div class="text-white flex flex-col justify-center text-center ">
+                <p>© Todos os direitos reservados</p>
+                <p>Desenvolvido por: <span class="font-bold">Agência Kliquex</span></p>
+            </div>
+            <img src="@/assets/images/google_rate.png" class="w-64" alt="kliquex">
+        </main>
+    </section>
+
 
 </template>
