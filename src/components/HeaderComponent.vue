@@ -137,9 +137,9 @@
         </main>
     </section>
 
-    <section class="w-full p-4 relative mt-10">
+    <section class="w-full p-4 relative mt-10 md:mt-28">
         <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center flex-col ">
-            <h1 class="text-3xl font-bold mb-10 text-center md:text-left">PARA QUEM SÃO NOSSOS <span
+            <h1 class="text-3xl font-bold mb-10 text-center">PARA QUEM SÃO NOSSOS <span
                     class="text-red-600">SERVIÇOS?</span></h1>
 
 
@@ -189,4 +189,17 @@
             </div>
         </main>
     </section>
+
+    <section class="w-full p-4 relative mt-10 md:mt-28">
+        <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center flex-col ">
+            <h1 class="text-3xl font-bold text-center"><span class="text-red-600">BENEFÍCIOS</span>
+                DE TRABALHAR CONOSCO
+            </h1>
+            <p class="text-center text-2xl text-gray-400">Motivos para você escolher a <span
+                    class="text-red-600">Kliquex</span></p>
+            <img src="@/assets/images/benefits.png" class="w-full mt-5" alt="kliquex">
+        </main>
+    </section>
+
+
 </template>
