@@ -1,18 +1,18 @@
 <script setup>
 </script>
 <template>
-    <section class="w-full  -red-400 p-0 relative">
+    <section class="w-full p-0 relative">
 
-        <img src="@/assets/images/light-tl.png" class="absolute -top-8 left-0 w-[35rem] z-50" alt="kliquex">
+        <img src="@/assets/images/light-tl.png" class="absolute -top-8 left-0 w-[35rem] z-0" alt="kliquex">
         <img src="@/assets/images/light-tr.png" class="absolute -top-8 right-0 w-[35rem] z-50" alt="kliquex">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-52 left-0 w-[22rem] z-50" alt="kliquex">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-52 right-0 w-[22rem] z-50 rotate-180"
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 left-0 w-[22rem] z-0" alt="kliquex">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 right-0 w-[22rem] z-50 rotate-180"
             alt="kliquex">
 
         <main class="w-full max-w-7xl mx-auto p-4  relative">
             <!-- nav     -->
-            <nav class="w-full  p-4 mt-10 mb-20">
-                <img src="@/assets/images/logo.png" class="w-56" alt="kliquex">
+            <nav class="w-full mt-10 mb-20 flex justify-center md:justify-start">
+                <img src="@/assets/images/logo.png" class="w-56 relative md:-left-10 left-0" alt="kliquex">
             </nav>
 
             <!-- hero divider -->
@@ -40,7 +40,7 @@
                     <div class="flex justify-center md:justify-start">
 
                         <button
-                            class=" px-24 py-5 bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-500  transition-all ">QUERO
+                            class=" px-24 py-5 bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
                             FAZER UMA
                             CONSULTA</button>
                     </div>
@@ -53,27 +53,38 @@
             </div>
 
             <!-- instruct -->
-            <div class="w-full p-4 mt-10">
+            <div class="w-full p-4 -mt-5">
                 <div class="w-full text-center text-white ">
                     <h1 class="text-3xl font-extrabold">COMO FUNCIONA NOSSO OPERACIONAL?</h1>
                     <p class="text-2xl"><span class="text-red-500 ">Nossa agência</span> se baseia em 4 pilares de
                         atuação</p>
                 </div>
 
-                <div class="w-full flex justify-center mt-20" data-aos="fade-up-left">
-                    <img src="@/assets/images/pilares.png" class="w-[60rem]" alt="kliquex">
-
+                <div class="w-full flex justify-center my-20" data-aos="fade-up-left">
+                    <img src="@/assets/images/pilares.png" class="w-full" alt="kliquex">
                 </div>
             </div>
 
+        </main>
 
-            <!-- services -->
-            <section>
+    </section>
+    <section class="w-full p-0 relative">
+        <!-- services -->
+        <section class="w-full border h-[35rem]">
+            <img src="@/assets/images/lines.png" class="w-[80rem] absolute left-[50%] translate-x-[-50%] -top-5 z-0"
+                alt="kliquex">
+            <div class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10">
+                <h1 class="text-white text-center font-bold text-3xl ">NOSSOS PRINCIPAIS SERVIÇOS</h1>
+                <img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
+                <button
+                    class="px-24 py-5 mt-20 bg-red-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-800  transition-all relative z-10">
+                    SOLICITAR CONSULTA
+                </button>
+            </div>
+        </section>
 
-            </section>
-
-
-
+        <main class="w-full max-w-7xl mx-auto p-4  relative text-white">
+            sdf
         </main>
     </section>
 </template>
