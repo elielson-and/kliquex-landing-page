@@ -12,7 +12,7 @@
 
         <main class="w-full max-w-7xl mx-auto p-2  relative">
             <!-- nav     -->
-            <nav class="w-full mt-10 mb-20 flex justify-center md:justify-start">
+            <nav class="w-full mt-10 mb-10 md:mb-20 flex justify-center md:justify-start">
                 <img src="@/assets/images/logo.png" class="w-56 relative md:-left-10 left-0" alt="kliquex">
             </nav>
 
@@ -43,7 +43,7 @@
                     <div class="flex justify-center md:justify-start">
 
                         <button
-                            class=" px-24 py-5 text-lg md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
+                            class="px-12 md:px-24 py-3 md:py-5 text-lg md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
                             FAZER UMA
                             CONSULTA</button>
                     </div>
@@ -253,12 +253,12 @@
 
     <div class="border w-full max-w-7xl mx-auto border-red-600 my-10 md:my-20"></div>
 
-    <section class="w-full p-4 relative mt-10 md:mt-28  ">
+    <section class="w-full p-4 relative my-10 md:mt-28   ">
         <!-- <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
             alt="kliquex"> -->
         <main class="w-full max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
 
-            <img src="@/assets/images/logo.png" class="w-64" alt="kliquex">
+            <img src="@/assets/images/logo.png" class="w-36 " alt="kliquex">
             <div class="text-white hidden md:flex flex-col justify-center text-center ">
                 <p>© Todos os direitos reservados</p>
                 <p>Desenvolvido por: <span class="font-bold">Agência Kliquex</span></p>
