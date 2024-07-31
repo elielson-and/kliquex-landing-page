@@ -256,15 +256,20 @@
     <section class="w-full p-4 relative mt-10 md:mt-28  ">
         <!-- <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
             alt="kliquex"> -->
-        <main class="w-full max-w-7xl mx-auto grid grid-cols-3 gap-4 justify-items-center">
+        <main class="w-full max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
 
             <img src="@/assets/images/logo.png" class="w-64" alt="kliquex">
-            <div class="text-white flex flex-col justify-center text-center ">
+            <div class="text-white hidden md:flex flex-col justify-center text-center ">
                 <p>© Todos os direitos reservados</p>
                 <p>Desenvolvido por: <span class="font-bold">Agência Kliquex</span></p>
             </div>
-            <img src="@/assets/images/google_rate.png" class="w-64" alt="kliquex">
+            <img src="@/assets/images/google_rate.png" class="w-64 " alt="kliquex">
         </main>
+
+        <div class="text-gray-400 mt-4 md:hidden flex flex-col justify-center text-center ">
+            <p>© Todos os direitos reservados</p>
+            <p class="-mt-1">Desenvolvido por: <span class="font-bold">Agência Kliquex</span></p>
+        </div>
     </section>
 
 
