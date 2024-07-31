@@ -218,9 +218,9 @@
             class="absolute w-[80%] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
             alt="kliquex">
         <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center items-center flex-col ">
-            <h1 class="text-xl md:text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!
+            <h1 class="text-2xl md:text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!
             </h1>
-            <p class="text-xl md:text-4xl text-center mt-5 md:mt-10 max-w-[80%]">Potencialize sua marca com nossa
+            <p class="text-xl md:text-4xl text-center mt-5 md:mt-10 ">Potencialize sua marca com nossa
                 expertise em
                 marketing
                 digital. Marque
@@ -230,7 +230,7 @@
                 sua jornada para o sucesso agora mesmo!</p>
 
             <button
-                class="mt-16 font-bold relative inline-flex h-12 md:h-16 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none">
+                class="mt-16 font-bold relative inline-flex h-14 md:h-16 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none">
                 <span
                     class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#3d1b1b_0%,#ff7373_50%,#ff0000_100%)]">
                 </span>
@@ -251,7 +251,7 @@
         </main>
     </section>
 
-    <div class="border w-full max-w-7xl mx-auto border-red-600 my-20"></div>
+    <div class="border w-full max-w-7xl mx-auto border-red-600 my-10 md:my-20"></div>
 
     <section class="w-full p-4 relative mt-10 md:mt-28  ">
         <!-- <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
