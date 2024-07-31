@@ -20,7 +20,8 @@
                 <div class="w-full md:w-1/2   ">
                     <h1 class="text-red-600 font-bold text-5xl mb-10 text-center md:text-left">Mais que uma agência.
                     </h1>
-                    <p class="text-white text-[2.2rem] text-center md:text-left  font-light">Somos uma empresa de
+                    <p class="text-white text-[1rem] md:text-[2.2rem] text-center md:text-left  font-light">Somos uma
+                        empresa de
                         marketing
                         digital
                         dedicada a
