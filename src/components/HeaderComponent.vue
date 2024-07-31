@@ -5,11 +5,12 @@
 
         <img src="@/assets/images/light-tl.png" class="absolute -top-8 left-0 w-[35rem] z-0" alt="kliquex">
         <img src="@/assets/images/light-tr.png" class="absolute -top-8 right-0 w-[35rem] z-50" alt="kliquex">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 left-0 w-[22rem] z-20" alt="kliquex">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 right-0 w-[22rem] z-50 rotate-180"
-            alt="kliquex">
+        <img src="@/assets/images/mid_light.png"
+            class="absolute -bottom-40 left-0 w-[22rem] z-20 opacity-50 md:opacity-100" alt="kliquex">
+        <img src="@/assets/images/mid_light.png"
+            class="absolute -bottom-40 right-0 w-[22rem] z-50 rotate-180 opacity-50 md:opacity-100" alt="kliquex">
 
-        <main class="w-full max-w-7xl mx-auto p-4  relative">
+        <main class="w-full max-w-7xl mx-auto p-2  relative">
             <!-- nav     -->
             <nav class="w-full mt-10 mb-20 flex justify-center md:justify-start">
                 <img src="@/assets/images/logo.png" class="w-56 relative md:-left-10 left-0" alt="kliquex">
@@ -42,7 +43,7 @@
                     <div class="flex justify-center md:justify-start">
 
                         <button
-                            class=" px-24 py-5 bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
+                            class=" px-24 py-5 text-sm md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
                             FAZER UMA
                             CONSULTA</button>
                     </div>
@@ -55,14 +56,16 @@
             </div>
 
             <!-- instruct -->
-            <div class="w-full p-4 -mt-5">
+            <div class="w-full p-4 mt-5 md:-mt-5">
                 <div class="w-full text-center text-white ">
-                    <h1 class="text-3xl font-extrabold">COMO FUNCIONA NOSSO OPERACIONAL?</h1>
-                    <p class="text-2xl"><span class="text-red-500 ">Nossa agência</span> se baseia em 4 pilares de
+                    <h1 class="text-2xl md:text-3xl font-extrabold">COMO FUNCIONA NOSSO OPERACIONAL?</h1>
+                    <p class="text-sm md:text-2xl mt-4 md:mt-0"><span class="text-red-500 ">Nossa agência</span> se
+                        baseia em 4
+                        pilares de
                         atuação</p>
                 </div>
 
-                <div class="w-full flex justify-center my-20" data-aos="fade-up-left">
+                <div class="w-full flex justify-center my-10 md:my-20 " data-aos="fade-up-left">
                     <img src="@/assets/images/pilares.png" class="w-full" alt="kliquex">
                 </div>
             </div>
