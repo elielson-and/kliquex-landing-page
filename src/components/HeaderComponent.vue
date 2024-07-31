@@ -108,34 +108,38 @@
         <main class="w-full max-w-7xl mx-auto  relative text-white flex flex-col md:flex-row ">
             <div class="w-full md:w-2/4 p-2">
                 <h1 class="text-3xl font-bold text-red-600 mb-5">QUEM SOMOS?</h1>
-                <p class="mb-5 text-2xl leading-8">Somos uma equipe de especialistas em marketing digital comprometidos
+                <p class="mb-5 text-xl md:text-2xl leading-8">Somos uma equipe de especialistas em marketing digital
+                    comprometidos
                     em
                     impulsionar o
                     sucesso dos
                     negócios online.
                 </p>
-                <p class="mb-5 text-2xl leading-8">
+                <p class="mb-5 text-xl md:text-2xl leading-8">
                     Combinamos criatividade e expertise para fornecer soluções personalizadas que geram resultados
                     excepcionais.
                 </p>
 
-                <p class="mb-5 text-2xl leading-8">Nosso objetivo é ajudar nossos clientes a alcançar suas metas e
+                <p class="mb-5 text-xl md:text-2xl leading-8">Nosso objetivo é ajudar nossos clientes a alcançar suas
+                    metas e
                     destacar-se no
                     mercado
                     digital.</p>
-                <p class="mb-5 text-2xl leading-8">Com uma abordagem estratégica e foco no cliente, estamos prontos para
+                <p class="mb-5 text-xl md:text-2xl leading-8">Com uma abordagem estratégica e foco no cliente, estamos
+                    prontos para
                     enfrentar
                     qualquer
                     desafio e
                     entregar resultados de qualidade. </p>
             </div>
             <div class="w-full md:w-2/3 mt-4 md:mt-0 p-2 relative">
-                <img src="@/assets/images/light_fill.png" class="w-[45rem] absolute -top-20 -left-36 z-10"
-                    alt="kliquex">
+                <img src="@/assets/images/light_fill.png"
+                    class="w-[45rem] absolute -top-20 -left-36 z-10 opacity-60 md:opacity-100" alt="kliquex">
                 <img src="@/assets/images/iphone.png"
-                    class="w-[40rem] relative md:absolute  top-5 left-[50%] translate-x-[-60%] z-10" alt="kliquex">
+                    class="w-[40rem] relative md:absolute  top-5 left-[50%] translate-x-[-50%] md:translate-x-[-60%] z-10"
+                    alt="kliquex">
 
-                <div class="mt-5 ml-5 absolute md:relative top-2">
+                <div class="mt-5 ml-0 md:ml-5 absolute md:relative top-2">
                     <h1 class="font-extrabold mb-1">Bryan Esteves</h1>
                     <p class="text-gray-300">Estrategista, <br> CEO e Founder</p>
                 </div>
