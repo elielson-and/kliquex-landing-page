@@ -211,7 +211,7 @@
         </main>
     </section>
 
-    <section class="w-full p-4 relative mt-10 md:mt-28 mb-36 ">
+    <section class="w-full p-4 relative mt-10 md:mt-28 mb-20 md:mb-36 ">
         <img src="@/assets/images/light_fill.png"
             class="absolute w-[80%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
         <img src="@/assets/images/white_light.png"
@@ -228,10 +228,26 @@
                 consulta
                 gratuita e comece
                 sua jornada para o sucesso agora mesmo!</p>
+
             <button
-                class="px-16 py-5 mt-16 text-3xl bg-gray-950 shadow-md shadow-red-950 text-white font-bold rounded-lg hover:shadow-lg   transition-all relative z-10">
-                REALIZAR CONSULTA GRÁTIS
+                class="mt-16 font-bold relative inline-flex h-12 md:h-16 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none">
+                <span
+                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#3d1b1b_0%,#ff7373_50%,#ff0000_100%)]">
+                </span>
+                <span
+                    class="inline-flex font-bold h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-4 text-md md:text-3xl  text-white backdrop-blur-3xl gap-2 undefined">
+                    REALIZAR CONSULTA GRÁTIS
+                    <div class="w-5">
+                        <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z">
+                            </path>
+                        </svg>
+                    </div>
+                </span>
             </button>
+
         </main>
     </section>
 
