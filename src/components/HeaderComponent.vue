@@ -13,7 +13,7 @@
         <main class="w-full max-w-7xl mx-auto p-2  relative">
             <!-- nav     -->
             <nav class="w-full mt-10 mb-10 md:mb-20 flex justify-center md:justify-start">
-                <img src="@/assets/images/logo.png" class="w-56 relative md:-left-10 left-0" alt="kliquex">
+                <img src="@/assets/images/logo.png" class="w-36 relative md:-left-10 left-0" alt="kliquex">
             </nav>
 
             <!-- hero divider -->
