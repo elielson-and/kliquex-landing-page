@@ -205,7 +205,7 @@
             <h1 class="text-3xl font-bold text-center"><span class="text-red-600">BENEFÍCIOS</span>
                 DE TRABALHAR CONOSCO
             </h1>
-            <p class="text-center text-2xl text-gray-400">Motivos para você escolher a <span
+            <p class="text-center mt-4 md:mt-0 text-xl md:text-2xl text-gray-400">Motivos para você escolher a <span
                     class="text-red-600">Kliquex</span></p>
             <img src="@/assets/images/benefits.png" class="w-full mt-5" alt="kliquex">
         </main>
@@ -218,8 +218,11 @@
             class="absolute w-[80%] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
             alt="kliquex">
         <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center items-center flex-col ">
-            <h1 class="text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!</h1>
-            <p class="text-4xl text-center mt-10 max-w-[80%]">Potencialize sua marca com nossa expertise em marketing
+            <h1 class="text-xl md:text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!
+            </h1>
+            <p class="text-xl md:text-4xl text-center mt-5 md:mt-10 max-w-[80%]">Potencialize sua marca com nossa
+                expertise em
+                marketing
                 digital. Marque
                 sua
                 consulta
