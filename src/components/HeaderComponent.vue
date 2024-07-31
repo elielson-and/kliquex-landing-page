@@ -94,10 +94,10 @@
     </section>
 
     <section class="w-full p-4 relative mt-28">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-32 left-0 w-[22rem] z-20 opacity-60"
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-32 left-0 w-[22rem] z-00 opacity-60"
             alt="kliquex">
-        <img src="@/assets/images/mid_light.png"
-            class="absolute -bottom-96 right-0 w-[22rem] z-50 opacity-50 rotate-180" alt="kliquex">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
+            alt="kliquex">
 
         <main class="w-full max-w-7xl mx-auto  relative text-white flex flex-col md:flex-row ">
             <div class="w-full md:w-2/4 p-2">
@@ -127,12 +127,65 @@
                 <img src="@/assets/images/light_fill.png" class="w-[45rem] absolute -top-20 -left-36 z-10"
                     alt="kliquex">
                 <img src="@/assets/images/iphone.png"
-                    class="w-[40rem] absolute  top-5 left-[50%] translate-x-[-60%] z-10" alt="kliquex">
+                    class="w-[40rem] relative md:absolute  top-5 left-[50%] translate-x-[-60%] z-10" alt="kliquex">
 
-                <div class="mt-5 ml-5">
+                <div class="mt-5 ml-5 absolute md:relative top-2">
                     <h1 class="font-extrabold mb-1">Bryan Esteves</h1>
                     <p class="text-gray-300">Estrategista, <br> CEO e Founder</p>
                 </div>
+            </div>
+        </main>
+    </section>
+
+    <section class="w-full p-4 relative mt-10">
+        <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center flex-col ">
+            <h1 class="text-3xl font-bold mb-10 text-center md:text-left">PARA QUEM SÃO NOSSOS <span
+                    class="text-red-600">SERVIÇOS?</span></h1>
+
+
+            <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Pequenas empresas em fase de crescimento;
+                    </div>
+                </div>
+
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Empreendedores individuais;
+                    </div>
+                </div>
+
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Startups buscando visibilidade online;
+                    </div>
+                </div>
+
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Empresas estabelecidas procurando otimizar sua presença digital;
+                    </div>
+                </div>
+
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Profissionais liberais em busca de destaque na internet;
+                    </div>
+                </div>
+
+                <div class="w-full flex gap-4 justify-center items-center">
+                    <img src="@/assets/images/check.png" class="w-[30px] mt-5 relative z-10" alt="kliquex">
+                    <div class="w-[90%] border p-4 rounded-xl h-24 flex justify-start items-center text-2xl">
+                        Marcas que desejam alcançar um público específico;
+                    </div>
+                </div>
+
             </div>
         </main>
     </section>
