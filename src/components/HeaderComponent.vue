@@ -5,7 +5,7 @@
 
         <img src="@/assets/images/light-tl.png" class="absolute -top-8 left-0 w-[35rem] z-0" alt="kliquex">
         <img src="@/assets/images/light-tr.png" class="absolute -top-8 right-0 w-[35rem] z-50" alt="kliquex">
-        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 left-0 w-[22rem] z-0" alt="kliquex">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 left-0 w-[22rem] z-20" alt="kliquex">
         <img src="@/assets/images/mid_light.png" class="absolute -bottom-40 right-0 w-[22rem] z-50 rotate-180"
             alt="kliquex">
 
@@ -70,21 +70,26 @@
     </section>
     <section class="w-full p-0 relative">
         <!-- services -->
-        <section class="w-full border h-[35rem]">
+        <section class="w-full h-[26rem] md:h-[35rem] ">
             <img src="@/assets/images/lines.png" class="w-[80rem] absolute left-[50%] translate-x-[-50%] -top-5 z-0"
                 alt="kliquex">
             <div class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10">
                 <h1 class="text-white text-center font-bold text-3xl ">NOSSOS PRINCIPAIS SERVIÇOS</h1>
-                <img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
+                <a href="#"><img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10"
+                        alt="kliquex"></a>
                 <button
                     class="px-24 py-5 mt-20 bg-red-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-800  transition-all relative z-10">
                     SOLICITAR CONSULTA
                 </button>
             </div>
         </section>
+    </section>
 
-        <main class="w-full max-w-7xl mx-auto p-4  relative text-white">
-            sdf
+    <section class="w-full p-0 relative mt-20">
+        <main class="w-full max-w-7xl mx-auto p-4  relative text-white flex flex-col justify-center items-center">
+            <h1 class="text-3xl font-bold"><span class="text-red-500">PROJETOS</span> RECENTES</h1>
+            <p class="text-xl">Criativos de alta <span class="text-red-500">conversão</span></p>
+            <img src="@/assets/images/projects.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
         </main>
     </section>
 </template>
