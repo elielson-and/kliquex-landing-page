@@ -43,7 +43,7 @@
                     <div class="flex justify-center md:justify-start">
 
                         <button
-                            class=" px-24 py-5 text-sm md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
+                            class=" px-24 py-5 text-lg md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
                             FAZER UMA
                             CONSULTA</button>
                     </div>
@@ -78,7 +78,8 @@
         <section class="w-full h-[26rem] md:h-[35rem] ">
             <img src="@/assets/images/lines.png" class="w-[80rem] absolute left-[50%] translate-x-[-50%] -top-5 z-0"
                 alt="kliquex">
-            <div class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10">
+            <div
+                class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10 rounded-t-xl md:rounded-none">
                 <h1 class="text-white text-center font-bold text-3xl ">NOSSOS PRINCIPAIS SERVIÇOS</h1>
                 <a href="#"><img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10"
                         alt="kliquex"></a>
@@ -90,7 +91,7 @@
         </section>
     </section>
 
-    <section class="w-full p-0 relative mt-20">
+    <section class="w-full p-0 relative mt-10 md:mt-20">
         <main class="w-full max-w-7xl mx-auto p-4  relative text-white flex flex-col justify-center items-center">
             <h1 class="text-3xl font-bold"><span class="text-red-600">PROJETOS</span> RECENTES</h1>
             <p class="text-xl">Criativos de alta <span class="text-red-500">conversão</span></p>
@@ -98,7 +99,7 @@
         </main>
     </section>
 
-    <section class="w-full p-4 relative mt-28">
+    <section class="w-full p-4 relative mt-10 md:mt-28">
         <img src="@/assets/images/mid_light.png" class="absolute -bottom-32 left-0 w-[22rem] z-00 opacity-60"
             alt="kliquex">
         <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
