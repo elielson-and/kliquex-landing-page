@@ -31,7 +31,7 @@
                         dos
                         negócios <span class="text-red-600">online.</span></p>
 
-                    <p class="text-gray-300 my-10 text-[1.2rem] text-center md:text-left">
+                    <p class="text-gray-300 my-10 text-[1rem] text-center md:text-left">
                         Com uma abordagem criativa e estratégica, <br> oferecemos
                         soluções
                         personalizadas
