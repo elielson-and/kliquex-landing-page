@@ -18,9 +18,10 @@
             <!-- hero divider -->
             <div class="flex flex-col md:flex-row  justify-center ">
                 <div class="w-full md:w-1/2   ">
-                    <h1 class="text-red-600 font-bold text-5xl mb-10 text-center md:text-left">Mais que uma agência.
+                    <h1 class="text-red-600 font-bold text-4xl md:text-5xl mb-10 text-center md:text-left">Mais que uma
+                        agência.
                     </h1>
-                    <p class="text-white text-[1rem] md:text-[2.2rem] text-center md:text-left  font-light">Somos uma
+                    <p class="text-white text-[2rem] md:text-[2.2rem] text-center md:text-left  font-light">Somos uma
                         empresa de
                         marketing
                         digital
@@ -30,7 +31,7 @@
                         dos
                         negócios <span class="text-red-600">online.</span></p>
 
-                    <p class="text-gray-300 my-10 text-2xl text-center md:text-left">
+                    <p class="text-gray-300 my-10 text-[1.2rem] text-center md:text-left">
                         Com uma abordagem criativa e estratégica, <br> oferecemos
                         soluções
                         personalizadas
