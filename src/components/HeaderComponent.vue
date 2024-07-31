@@ -41,11 +41,12 @@
 
 
                     <div class="flex justify-center md:justify-start">
-
-                        <button
-                            class="px-12 md:px-24 py-3 md:py-5 text-lg md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
-                            FAZER UMA
-                            CONSULTA</button>
+                        <a href="https://wa.me/5598984512238">
+                            <button
+                                class="px-12 md:px-24 py-3 md:py-5 text-lg md:text-xl bg-red-600 text-white font-bold rounded-lg mt-4 hover:shadow-lg hover:shadow-red-800  transition-all Z-50 ">QUERO
+                                FAZER UMA
+                                CONSULTA</button>
+                        </a>
                     </div>
                 </div>
                 <div class="w-full md:w-1/2 relative">
@@ -81,12 +82,14 @@
             <div
                 class="w-full bg-red-600 h-[200px] pt-5 flex  flex-col items-center relative z-10 rounded-t-xl md:rounded-none">
                 <h1 class="text-white text-center font-bold text-3xl ">NOSSOS PRINCIPAIS SERVIÇOS</h1>
-                <a href="#"><img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10"
-                        alt="kliquex"></a>
-                <button
-                    class="px-24 py-5 mt-20 bg-red-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-800  transition-all relative z-10">
-                    SOLICITAR CONSULTA
-                </button>
+                <img src="@/assets/images/services.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
+
+                <a href="https://wa.me/5598984512238">
+                    <button
+                        class="px-24 py-5 mt-20 bg-red-600 text-white font-bold rounded-lg hover:shadow-lg hover:shadow-red-800  transition-all relative z-10">
+                        SOLICITAR CONSULTA
+                    </button>
+                </a>
             </div>
         </section>
     </section>
@@ -229,24 +232,27 @@
                 gratuita e comece
                 sua jornada para o sucesso agora mesmo!</p>
 
-            <button
-                class="mt-16 font-bold relative inline-flex h-14 md:h-16 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none">
-                <span
-                    class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#3d1b1b_0%,#ff7373_50%,#ff0000_100%)]">
-                </span>
-                <span
-                    class="inline-flex font-bold h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-4 text-md md:text-3xl  text-white backdrop-blur-3xl gap-2 undefined">
-                    REALIZAR CONSULTA GRÁTIS
-                    <div class="w-5">
-                        <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z">
-                            </path>
-                        </svg>
-                    </div>
-                </span>
-            </button>
+            <a href="https://wa.me/5598984512238">
+                <button
+                    class="mt-16 font-bold relative inline-flex h-14 md:h-16 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none z-50">
+                    <span
+                        class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#3d1b1b_0%,#ff7373_50%,#ff0000_100%)]">
+                    </span>
+                    <span
+                        class="inline-flex font-bold h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 py-4 text-md md:text-3xl  text-white backdrop-blur-3xl gap-2 undefined">
+                        REALIZAR CONSULTA GRÁTIS
+                        <div class="w-5">
+                            <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </span>
+                </button>
+            </a>
+
 
         </main>
     </section>
