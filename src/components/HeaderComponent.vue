@@ -216,9 +216,9 @@
 
     <section class="w-full p-4 relative mt-10 md:mt-28 mb-20 md:mb-36 ">
         <img src="@/assets/images/light_fill.png"
-            class="absolute w-[80%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
+            class="absolute w-[100%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
         <img src="@/assets/images/white_light.png"
-            class="absolute w-[80%] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
+            class="absolute w-[80rem] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
             alt="kliquex">
         <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center items-center flex-col ">
             <h1 class="text-2xl md:text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!
