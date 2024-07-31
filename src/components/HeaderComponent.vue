@@ -18,10 +18,10 @@
             <!-- hero divider -->
             <div class="flex flex-col md:flex-row  justify-center ">
                 <div class="w-full md:w-1/2   ">
-                    <h1 class="text-red-600 font-bold text-4xl md:text-5xl mb-10 text-center md:text-left">Mais que uma
+                    <h1 class="text-red-600 font-bold text-3xl md:text-5xl mb-10 text-center md:text-left">Mais que uma
                         agência.
                     </h1>
-                    <p class="text-white text-[2rem] md:text-[2.2rem] text-center md:text-left  font-light">Somos uma
+                    <p class="text-white text-[1.2rem] md:text-[2.2rem] text-center md:text-left  font-light">Somos uma
                         empresa de
                         marketing
                         digital
