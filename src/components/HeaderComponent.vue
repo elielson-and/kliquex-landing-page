@@ -87,9 +87,53 @@
 
     <section class="w-full p-0 relative mt-20">
         <main class="w-full max-w-7xl mx-auto p-4  relative text-white flex flex-col justify-center items-center">
-            <h1 class="text-3xl font-bold"><span class="text-red-500">PROJETOS</span> RECENTES</h1>
+            <h1 class="text-3xl font-bold"><span class="text-red-600">PROJETOS</span> RECENTES</h1>
             <p class="text-xl">Criativos de alta <span class="text-red-500">conversão</span></p>
-            <img src="@/assets/images/projects.png" class="w-[60rem] mt-5 relative z-10" alt="kliquex">
+            <img src="@/assets/images/projects.png" class="w-[80rem] mt-5 relative z-10" alt="kliquex">
+        </main>
+    </section>
+
+    <section class="w-full p-4 relative mt-28">
+        <img src="@/assets/images/mid_light.png" class="absolute -bottom-32 left-0 w-[22rem] z-20 opacity-60"
+            alt="kliquex">
+        <img src="@/assets/images/mid_light.png"
+            class="absolute -bottom-96 right-0 w-[22rem] z-50 opacity-50 rotate-180" alt="kliquex">
+
+        <main class="w-full max-w-7xl mx-auto  relative text-white flex flex-col md:flex-row ">
+            <div class="w-full md:w-2/4 p-2">
+                <h1 class="text-3xl font-bold text-red-600 mb-5">QUEM SOMOS?</h1>
+                <p class="mb-5 text-2xl leading-8">Somos uma equipe de especialistas em marketing digital comprometidos
+                    em
+                    impulsionar o
+                    sucesso dos
+                    negócios online.
+                </p>
+                <p class="mb-5 text-2xl leading-8">
+                    Combinamos criatividade e expertise para fornecer soluções personalizadas que geram resultados
+                    excepcionais.
+                </p>
+
+                <p class="mb-5 text-2xl leading-8">Nosso objetivo é ajudar nossos clientes a alcançar suas metas e
+                    destacar-se no
+                    mercado
+                    digital.</p>
+                <p class="mb-5 text-2xl leading-8">Com uma abordagem estratégica e foco no cliente, estamos prontos para
+                    enfrentar
+                    qualquer
+                    desafio e
+                    entregar resultados de qualidade. </p>
+            </div>
+            <div class="w-full md:w-2/3 mt-4 md:mt-0 p-2 relative">
+                <img src="@/assets/images/light_fill.png" class="w-[45rem] absolute -top-20 -left-36 z-10"
+                    alt="kliquex">
+                <img src="@/assets/images/iphone.png"
+                    class="w-[40rem] absolute  top-5 left-[50%] translate-x-[-60%] z-10" alt="kliquex">
+
+                <div class="mt-5 ml-5">
+                    <h1 class="font-extrabold mb-1">Bryan Esteves</h1>
+                    <p class="text-gray-300">Estrategista, <br> CEO e Founder</p>
+                </div>
+            </div>
         </main>
     </section>
 </template>
