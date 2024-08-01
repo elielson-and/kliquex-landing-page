@@ -218,9 +218,9 @@
 
     <section v-if="true" class="w-full p-4 relative mt-10 md:mt-28 mb-20 md:mb-36 ">
         <img src="@/assets/images/light_fill.png"
-            class="absolute w-[80%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
+            class="absolute h-[50rem] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
         <img src="@/assets/images/white_light.png"
-            class="absolute w-[80rem] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
+            class="absolute h-[50rem] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
             alt="kliquex">
         <main class="w-full max-w-7xl mx-auto  relative text-white flex justify-center items-center flex-col ">
             <h1 class="text-2xl md:text-4xl font-bold text-center text-red-600">VOCÊ PRECISA SE DESTACAR NA MULTIDÃO!
@@ -261,7 +261,7 @@
 
     <div class="border w-full max-w-7xl mx-auto border-red-600 my-10 md:my-20"></div>
 
-    <section class="w-full p-4 relative my-10 md:mt-28   ">
+    <section class="w-full p-4 relative mt-10 md:mt-28   ">
         <!-- <img src="@/assets/images/mid_light.png" class="absolute -bottom-96 right-0 w-[22rem] z-0 opacity-50 rotate-180"
             alt="kliquex"> -->
         <main class="w-full max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
