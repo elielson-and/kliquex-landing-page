@@ -216,9 +216,9 @@
         </main>
     </section>
 
-    <section class="w-full p-4 relative mt-10 md:mt-28 mb-20 md:mb-36 ">
+    <section v-if="true" class="w-full p-4 relative mt-10 md:mt-28 mb-20 md:mb-36 ">
         <img src="@/assets/images/light_fill.png"
-            class="absolute w-[100%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
+            class="absolute w-[80%] left-[50%] translate-x-[-40%] top-[60%] translate-y-[-50%] z-10" alt="kliquex">
         <img src="@/assets/images/white_light.png"
             class="absolute w-[80rem] left-[50%] translate-x-[-70%] top-[60%] translate-y-[-50%] z-0 opacity-60"
             alt="kliquex">
